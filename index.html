@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>HTML FORM</title>
+        <link rel = "stylesheet" href="style.css">
+    </head>
+    <body>
+        <section>
+            <div class = "container">
+                <form action="https://formspree.io/" id="test-form" method="POST">
+                    <div class = "form-group">
+                        <label for = "flname">From</label>
+                        <input type = "email" id = "flname" name="From">
+                    </div>
+
+                    <div class = "form-group">
+                        <label for = "eml">To</label>
+                        <input type = "email" id = "eml" name = "To">
+                    </div> 
+
+                    <div class = "form-group">
+                        <label for = "sub">Subject</label>
+                        <input type="text" id = "sub" name = "Subject">
+                    </div>
+
+                   <div class = "form-group">
+                       <label for = "hw">Has the word</label>
+                       <input type = "text" id = "hw" name = "Has the word">
+                   </div>
+
+                    <button type = "submit" id = "test-form-submit" class = "float-right">Search</button>
+                    <button type = "submit" id = "test-form-filter">Create Filter</button>
+                </form>
+            </div>
+        </section>
+        <script src = ""></script>
+    </body>
+</html>
